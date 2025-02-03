@@ -18,7 +18,7 @@ This plugin allows you to run LLMs directly on device without requiring an inter
 
 ## Screenshots
 
-![Example app screenshot](screenshot.jpeg)
+![Example app screenshot](screenshot.jpeg){width=320px}
 
 ## Getting Started
 
