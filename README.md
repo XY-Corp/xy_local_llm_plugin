@@ -1,15 +1,28 @@
 # xy_local_llm_plugin
 
-A new Flutter plugin project.
+A Flutter plugin that enables running Large Language Models (LLMs) locally on iOS devices, with Android support coming soon.
+
+## Overview
+
+This plugin allows you to run LLMs directly on device without requiring an internet connection or API calls to external services. It leverages native machine learning frameworks to provide efficient local inference.
+
+## Features
+
+- Run LLMs completely offline on device
+- iOS support using MLX framework
+- Configurable generation parameters (temperature, max tokens)
+- Simple API for model loading and text generation
+- Support for multiple model architectures
+- Android support planned for future releases
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Add this to your package's `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  xy_local_llm_plugin:
+    git:
+      url: https://github.com/XY-Corp/xy_local_llm_plugin.git
+      ref: main
+
+
 

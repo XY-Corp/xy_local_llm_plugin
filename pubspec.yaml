@@ -1,11 +1,11 @@
 name: xy_local_llm_plugin
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/xy-ai/xy-local-llm-plugin
 
 environment:
   sdk: ^3.6.1
-  flutter: '>=3.3.0'
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
