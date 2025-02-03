@@ -9,7 +9,7 @@ import Metal
 import Tokenizers
 
 public class XyLocalLlmPlugin: NSObject, FlutterPlugin {
-    var evaluator: LLMEvaluator = LLMEvaluator()
+    var evaluator: XYLLM = XYLLM()
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "xy_local_llm_plugin", binaryMessenger: registrar.messenger())
         let instance = XyLocalLlmPlugin()
@@ -62,7 +62,7 @@ public class XyLocalLlmPlugin: NSObject, FlutterPlugin {
     }
 }
 
-class LLMEvaluator {
+class XYLLM {
 
     var running: Bool = false
     var output = ""

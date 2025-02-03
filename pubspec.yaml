@@ -1,7 +1,7 @@
 name: xy_local_llm_plugin
-description: "A new Flutter plugin project."
+description: "A Flutter plugin that enables running Large Language Models (LLMs) locally on iOS devices, with Android support coming soon."
 version: 0.0.1
-homepage: https://github.com/xy-ai/xy-local-llm-plugin
+homepage: https://github.com/XY-Corp/xy_local_llm_plugin
 
 environment:
   sdk: ^3.6.1
