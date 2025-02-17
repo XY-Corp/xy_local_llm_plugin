@@ -43,8 +43,9 @@ Check out the example app in the `example` directory to see the plugin in action
    cd xy_local_llm_plugin/example
    ```
 
-3. Install dependencies:
+3. Install dependencies and enable Swift Package Manager:
    ```bash
+   flutter config --enable-swift-package-manager
    flutter pub get
    ```
 
