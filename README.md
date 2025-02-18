@@ -2,6 +2,7 @@
 
 A Flutter plugin that enables running Large Language Models (LLMs) locally on iOS devices, with Android support coming soon.
 
+This plugin is built on top of the MLX framework, which is a Swift framework for running LLMs on iOS devices. Simulator not tested.
 
 ## Overview
 
